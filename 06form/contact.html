@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nathan Benson">
+    <meta name="description" content="Learn about the history and timeline of Epic Games' Fortnite">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fortnite.css">
+    <title>Fortnite Lore & Timeline: Home</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Fortnite Lore & Timeline</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chapter1.html">Chapter 1</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- start the main content -->
+    <main>
+        <h1>Contact Us & Review The Site</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required>
+                </label>
+                <label>Last Name*<input type="text" name="lname" required>
+                </label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Reason For Contacting Us</legend>
+                <label><input type="radio" name="method" value="feedback">Feedback</label>
+                <label><input type="radio" name="method" value="issue">Site Issue</label>
+                <label><input type="radio" name="method" value="other">Other</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Optional Feedback</legend>
+                <label>Do You Think The Site:</label>
+                <label><input type="checkbox" name="helpful" value="chosen">Is Helpful</label>
+                <label><input type="checkbox" name="important" value="chosen">Is Important</label>
+                <label><input type="checkbox" name="service" value="chosen">Provides a Valueable Service</label>
+                <label><input type="checkbox" name="authentic" value="chosen">Is Authentic</label>
+
+                <label>Does The Site Meet Your Expectations?
+                    <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="absolutely">Absolutely</option>
+                        <option value="somewhat">Somewhat</option>
+                        <option value="notreally">Not Really</option>
+                        <option value="notatall">Not At All</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Other Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+            <input type="submit" value="Send Contact Form">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Nathan Benson &bull; DWDD Web Essentials Project</p>
+    </footer>
+</body>
+
+</html>
