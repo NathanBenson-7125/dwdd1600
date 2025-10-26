@@ -174,12 +174,14 @@ div.gallery figcaption {
 .myForm select,
 .myForm [type=text],
 .myForm [type=tel],
+.myForm [type=email],
 .myForm textarea {
     display: block
 }
 
 .myForm [type=text],
 .myForm [type=tel],
+.myForm [type=email],
 .myForm select,
 .myForm textarea {
     border: solid 1px #888;
@@ -223,4 +225,5 @@ footer p {
     font-size: .8rem;
     color: #333;
     letter-spacing: 2px;
+
 }
