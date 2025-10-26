@@ -207,7 +207,7 @@ div.gallery figcaption {
     color: white;
     margin: 1rem 0 0 1vw;
     font-family: "Noto Sans", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     
 }
 
@@ -227,3 +227,4 @@ footer p {
     letter-spacing: 2px;
 
 }
+
